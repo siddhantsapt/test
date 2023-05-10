@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+
+.form-body{
+    background-color: rgb(255, 255, 255);
+    height: 3000px;
+    border: 2px solid red;
+}
+
+.headline{
+        text-align: center;
+}
+
+.user-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 20px; */
+    margin: 20px;
+}
+
+.user-details input,
+.user-details select{
+    width: 110px;
+}
+
+.rating-box {
+    position: relative;
+    background: #fff;
+    padding: 0px 360px 10px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  .rating-box .stars {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .stars i {
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  .stars i.active {
+    color: #ff9c1a;
+  }
+  
+  .All-questions h2{
+
+    text-align: center;
+  }
+
+  .A-Q p{
+    text-align: center;
+  }
+
+
+
+
+
+
+  
